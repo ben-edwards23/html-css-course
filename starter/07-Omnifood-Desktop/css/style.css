@@ -16,6 +16,9 @@ Default: 1
 - Greys: #555
 
 */
+html {
+    font-size: 62.5%;
+}
 
 * {
     padding: 0;
@@ -28,4 +31,15 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #555;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 130rem;
+    margin: 0 auto;
+}
+
+.hero-img {
+    width: 100%;
 }
